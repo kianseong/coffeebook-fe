@@ -1,53 +1,57 @@
-# Next.js & HeroUI Template
+# CoffeeBook Frontend
 
-This is a template for creating applications using Next.js 14 (app directory) and HeroUI (v2).
+A modern, beautiful registration page built with Next.js and Tailwind CSS.
 
-[Try it on CodeSandbox](https://githubbox.com/heroui-inc/heroui/next-app-template)
+## Features
 
-## Technologies Used
+- ✨ Beautiful, responsive design
+- 🌙 Dark mode support
+- 📱 Mobile-first approach
+- ✅ Form validation
+- 🔒 Password visibility toggle
+- 🎨 Coffee-themed color scheme
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [HeroUI v2](https://heroui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+## Tech Stack
 
-## How to Use
+- **Framework**: Next.js 15
+- **Styling**: Tailwind CSS
+- **Icons**: Heroicons
+- **Language**: TypeScript
 
-### Use the template with create-next-app
+## Getting Started
 
-To create a new project based on this template using `create-next-app`, run the following command:
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-npx create-next-app -e https://github.com/heroui-inc/next-app-template
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Structure
+
+```
+coffeebook-fe/
+├── app/
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Registration page
+│   └── globals.css     # Global styles
+├── components/         # React components
+├── styles/            # CSS files
+└── package.json       # Dependencies
 ```
 
-### Install dependencies
+## Available Scripts
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@heroui/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
 ## License
 
-Licensed under the [MIT license](https://github.com/heroui-inc/next-app-template/blob/main/LICENSE).
+MIT
